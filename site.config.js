@@ -2,13 +2,17 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "NCC-17039",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
+    image: "https://res.cloudinary.com/dozc6z49t/image/upload/v1701091704/img-for-me/logo-now.jpg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    role: "网络初学者、高中生",
+    bio: "嘿嘿，我——帅哥一枚",
+    email: "ncc-17039@foxmail.com",
+    linkedin: "",
+    github: "",
     instagram: "",
+    twitter: "",
+    weibo: "",
+    youtube: "492976551",
+    send: "NCC17039",
   },
   projects: [
     {
@@ -18,8 +22,8 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
+    title: "NCC-17039的博客",
+    description: "愿星辰大海在你我心中长存",
   },
 
   // CONFIG configration (required)
