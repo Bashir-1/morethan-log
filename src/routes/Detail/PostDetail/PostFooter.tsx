@@ -13,6 +13,10 @@ const Footer: React.FC<Props> = () => {
         ↑ Top
       </a>
     </StyledWrapper>
+    <StyledWrapper>
+      博客所有文章除特别声明外，均采用署名-非商业性使用-相同方式共享 4.0 国际(CC BY-NC-SA 4.0)许可协议,转载请注明出处
+      <br>© {CONFIG.profile.name} {from === y || !from ? y : `${from} - ${y}`}</br>
+    </StyledWrapper>
   )
 }
 
