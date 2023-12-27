@@ -5,6 +5,10 @@ import {
   AiOutlineGithub,
   AiOutlineMail,
   AiFillLinkedin,
+  AiOutlineTwitter,
+  AiFillYoutube,
+  AiOutlineWeibo,
+  AiOutlineSend,
 } from "react-icons/ai"
 import styled from "@emotion/styled"
 
@@ -31,6 +35,46 @@ const ContactCard: React.FC = () => {
           >
             <AiOutlineInstagram className="icon" />
             <div className="name">instagram</div>
+          </a>
+        )}
+        {CONFIG.profile.twitter && (
+          <a
+            href={`https://twitter.com/${CONFIG.profile.twitter}`}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineTwitter className="icon" />
+            <div className="name">Twitter</div>
+          </a>
+        )}
+        {CONFIG.profile.weibo && (
+          <a
+            href={`https://weibo.com/u/${CONFIG.profile.weibo}`}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineWeibo className="icon" />
+            <div className="name">weibo</div>
+          </a>
+        )}
+        {CONFIG.profile.youtube && (
+          <a
+            href={`https://space.bilibili.com/${CONFIG.profile.youtube}`}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiFillYoutube className="icon" />
+            <div className="name">bilibili</div>
+          </a>
+        )}
+        {CONFIG.profile.send && (
+          <a
+            href={`https://t.me/${CONFIG.profile.send}`}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineSend className="icon" />
+            <div className="name">Telegram</div>
           </a>
         )}
         {CONFIG.profile.email && (
