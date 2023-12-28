@@ -1,4 +1,4 @@
-import { CONFIG } from "site.config"
+import { CONFIG } from "./site.config"
 import { NotionAPI } from "notion-client"
 import { idToUuid } from "notion-utils"
 
