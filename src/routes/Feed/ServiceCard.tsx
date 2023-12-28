@@ -1,11 +1,11 @@
-import { CONFIG } from "site.config"
-import React from "react"
-import { AiFillCodeSandboxCircle } from "react-icons/ai"
-import styled from "@emotion/styled"
-import { Emoji } from "src/components/Emoji"
+import { CONFIG } from "site.config";
+import React from "react";
+import styled from "@emotion/styled";
+import { AiFillCodeSandboxCircle } from "react-icons/ai";
+import { Emoji } from "src/components/Emoji";
 
 const ServiceCard: React.FC = () => {
-  if (!CONFIG.projects) return null
+  if (!CONFIG.projects) return null;
   return (
     <>
       <StyledTitle>
@@ -15,25 +15,25 @@ const ServiceCard: React.FC = () => {
         {CONFIG.projects.map((project, idx) => (
           <a
             key={idx}
-            href={`${project.href}`}
+            href={project.href}
             rel="noreferrer"
             target="_blank"
           >
-            <AiFillCodeSandboxCircle className="icon" />
-            <div className="name">{CONFIG.projects[idx].name}</div>
+            {project.icon || <AiFillCodeSandboxCircle className="icon" />} {/* 使用项目的图标，如果未定义，则使用默认图标 */}
+            <div className="name">{project.name}</div>
           </a>
         ))}
       </StyledWrapper>
     </>
-  )
-}
+  );
+};
 
-export default ServiceCard
+export default ServiceCard;
 
 const StyledTitle = styled.div`
   padding: 0.25rem;
   margin-bottom: 0.75rem;
-`
+`;
 
 const StyledWrapper = styled.div`
   display: flex;
@@ -65,4 +65,4 @@ const StyledWrapper = styled.div`
       line-height: 1.25rem;
     }
   }
-`
+`;
