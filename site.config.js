@@ -16,8 +16,32 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `免费影视`,
+      href: "https://video.starshine.love/",
+    },
+    {
+      name: `星辰音乐库`,
+      href: "https://starshine.love/app/s/music.html",
+    },
+    {
+      name: `星辰存储库`,
+      href: "https://drive.starshine.love/",
+    },
+    {
+      name: `NOS网盘`,
+      href: "https://noscn.xyz/",
+    },
+    {
+      name: `GPT AI`,
+      href: "https://starshine.love/app/s/ai.html",
+    },
+    {
+      name: `今日热搜`,
+      href: "https://news.starshine.love/",
+    },
+    {
+      name: `更多项目`,
+      href: "https://starshine.love/app/",
     },
   ],
   // blog setting (required)
@@ -27,7 +51,7 @@ const CONFIG = {
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
+  link: "https://blog.starshine.love",
   since: 2021, // If leave this empty, current year will be used.
   lang: "zh-CN", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
