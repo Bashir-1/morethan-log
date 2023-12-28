@@ -1,3 +1,5 @@
+import { AiFillCodeSandboxCircle, AiFillAudio, AiFillDatabase, AiFillCloud, AiFillRobot, AiOutlineSearch, AiFillAppstore } from 'react-icons/ai';
+
 const CONFIG = {
   // profile setting (required)
   profile: {
@@ -18,30 +20,37 @@ const CONFIG = {
     {
       name: `免费影视`,
       href: "https://video.starshine.love/",
+      icon: <AiFillCodeSandboxCircle />,
     },
     {
       name: `星辰音乐库`,
       href: "https://starshine.love/app/s/music.html",
+      icon: <AiFillAudio />,
     },
     {
       name: `星辰存储库`,
       href: "https://drive.starshine.love/",
+      icon: <AiFillCloud />,
     },
     {
       name: `NOS网盘`,
       href: "https://noscn.xyz/",
+      icon: <AiFillDatabase />,
     },
     {
       name: `GPT AI`,
       href: "https://starshine.love/app/s/ai.html",
+      icon: <AiFillRobot />,
     },
     {
       name: `今日热搜`,
       href: "https://news.starshine.love/",
+      icon: <AiOutlineSearch />,
     },
     {
       name: `更多项目`,
       href: "https://starshine.love/app/",
+      icon: <AiFillAppstore />,
     },
   ],
   // blog setting (required)
