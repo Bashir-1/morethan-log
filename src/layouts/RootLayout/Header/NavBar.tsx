@@ -7,7 +7,8 @@ const NavBar: React.FC = () => {
     { id: 2, name: "友链", to: "/links" },
     { id: 3, name: "日志", to: "/update" }, 
     { id: 4, name: "联系", to: "/contact" }, 
-    { id: 5, name: "站点订阅", to: "/sitemap.xml" }
+    { id: 5, name: "网站协议", to: "/agreement" }, 
+    { id: 6, name: "站点订阅", to: "/sitemap.xml" }
   ];
   return (
     <StyledWrapper className="">
