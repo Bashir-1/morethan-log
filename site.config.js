@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "NCC-17039",
-    image: "https://res.cloudinary.com/dozc6z49t/image/upload/v1701091704/img-for-me/logo-now.jpg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "https://s21.ax1x.com/2024/07/18/pkocfCn.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "网络初学者、高中生",
     bio: "嘿嘿，我——帅哥一枚",
     email: "ncc-17039@foxmail.com",
@@ -24,24 +24,12 @@ const CONFIG = {
       href: "https://starshine.love/app/s/music.html",
     },
     {
-      name: `星辰存储库`,
-      href: "https://drive.starshine.love/",
-    },
-    {
-      name: `NOS网盘`,
-      href: "https://noscn.xyz/",
-    },
-    {
-      name: `GPT AI`,
-      href: "https://starshine.love/app/s/ai.html",
-    },
-    {
       name: `今日热搜`,
       href: "https://news.starshine.love/",
     },
     {
       name: `更多项目`,
-      href: "https://starshine.love/app/",
+      href: "https://starshine.love/",
     },
   ],
   // blog setting (required)
