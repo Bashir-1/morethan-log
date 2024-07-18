@@ -42,7 +42,7 @@ const CONFIG = {
   link: "https://blog.starshine.love",
   since: 2021, // If leave this empty, current year will be used.
   lang: "zh-CN", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
-  ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
+  ogImageGenerateURL: "https://blog.ncc17039.eu.org", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
   notionConfig: {
